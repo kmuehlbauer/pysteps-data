@@ -4,7 +4,7 @@ import pooch
 
 DATASETS = pooch.create(
     path=pooch.os_cache('pysteps-data'),
-    base_url='https://github.com/kmuehlbauer/pysteps-data/raw/main/data/',
+    base_url='https://github.com/kmuehlbauer/pysteps-data/raw/main-new/data/',
     env='PYSTEPS_DATASETS_DIR',
 )
 
