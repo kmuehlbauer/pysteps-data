@@ -37,13 +37,7 @@ python -m pip install git+https://github.com/PYSTEPS/pysteps-data
   In [4]: filepath = DATASETS.fetch('radar/KNMI/2010/08/RAD_NL25_RAP_5min_201008260015.h5')
 
   In [5]: filepath
-  Out[5]: '/Users/mgrover/Library/Caches/open-radar-data/sample_sgp_data.nc'
-  ```
-
-- Once you have access to the local filepath, you can then use it to load your dataset:
-
-  ```python
-  In [6]: radar = pyart.io.read(filepath)
+  Out[5]: '/home/kai/.cache/pysteps-data/radar/KNMI/2010/08/RAD_NL25_RAP_5min_201008260015.h5'
   ```
 
 ## Changing the default data cache location
